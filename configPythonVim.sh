@@ -6,7 +6,6 @@ sudo apt-get install build-essential cmake
 sudo apt-get install python-dev python3-dev
 cd ~/.vim/bundle/YouCompleteMe
 
-#escrever alteração no hashbang!!!
 sed -i 's/#!\/usr\/bin\/env\ python/#!\/usr\/bin\/python3/g' install.py
 
 ./install.py
