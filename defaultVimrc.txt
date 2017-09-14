@@ -113,3 +113,25 @@ set nu
 
 "powerline bar
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
+set guifont=Liberation\ Mono\ for\ Powerline\ 10 
+let g:Powerline_symbols = 'fancy'
+
+
+"set encoding=utf-8
+"set t_Co=256
+"set fillchars+=stl:\ ,stlnc:\
+"let g:Powerline_mode_V="VLINE"
+"let g:Powerline_mode_cv="VBLOCK"
+"let g:Powerline_mode_S="SLINE"
+"let g:Powerline_mode_cs="SBLOCK"
+
+
+"Markdown settings
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
+let g:vim_markdown_folding_disabled = 1
+set conceallevel=2
+
+
